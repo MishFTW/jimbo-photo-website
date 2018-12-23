@@ -1,0 +1,40 @@
+/*
+Style.css
+Adarash Mishra
+*/
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #222; }
+body { background: #000 repeat center center; margin: 0; font-size: 1em; line-height: 1.25; font-family: 'Open Sans', sans-serif;}
+
+::-moz-selection { background: black; color: #fff; text-shadow: none; }
+::selection { background: black; color: #fff; text-shadow: none; }
+
+a { color: #333; text-decoration: none; }
+a:visited { color: #333; }
+a:hover { color: #222;}
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; width: inherit; }
+
+.clearfix:after { content: ""; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+
+/* ===== Primary Styles ===== */
+header { background: #ECEAE0; margin: 0; position: relative; width: 100%; line-height: 1; padding: 1em 0; }
+#header-content{ color: #333; margin: 0 auto; width: 40em; display: block; }
+#header-content hgroup { float: right; margin-left: 1em; width: 30em; }
+#header-content hgroup h1 { font-size: 2em; font-variant: small-caps; font-weight: bold; line-height: 1; text-decoration: none; text-transform: uppercase;  text-align: center; text-shadow:0 1px 0 rgba(0,0,0,0.25) }
+#header-content hgroup h2 { font-size: 1.3em; font-variant: small-caps; font-weight: bold; line-height: 1; text-decoration: none; }
+#logo{ background: url(logo.png) no-repeat center center;  height: 9em;	margin: 0 auto; width: 9em; float: left; }
+.intro { clear: both; font-weight: 400; margin-top: 1em; text-align: justify; white-space: normal; }
+#galleria { height: 40em; margin-top: 2em; position: relative; width: 100%; }
+
+/* ===== Print Styles ===== */
+@media print {
+  body { display: none !important; } 
+}

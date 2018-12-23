@@ -1,0 +1,8 @@
+/* TEAM */
+Content:	James Allerhilegan (theninjaseal@gmail.com)
+Design: 	Adarash Mishra (mishra.adarash@gmail.com)
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, Galleria.io
+Software: Brackets, Google Chrome, Mozilla Firefox
